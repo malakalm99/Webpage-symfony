@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Lucky{% endblock %}
+
+{% block body %}
+    <h1>The cards never lie</h1>
+    <main class="fortune-page">
+        <p>Welcome to the lucky fortune machine.</p>
+        <div class="fortune">
+            <p>Your fortune: {{ fortunes }}</p>
+            <a href="{{ asset('img/fortune.jpg') }}">
+                <img class="fortune-img" src="{{ asset('img/fortune.jpg') }}" alt="">
+            </a>         
+            <p>Refresh the page to receive another fortune</p>
+        </div>
+    </main>
+{% endblock %}

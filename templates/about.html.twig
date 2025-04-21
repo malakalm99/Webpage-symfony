@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+    <h1>About</h1>
+    <div class="content-wrapper">
+        <main class="main-side">
+            <p>Kursen Objektorienterade webbteknologier (även kallad mvc) fokuserar på att utveckla webbapplikationer med hjälp av objektorienterad programmering i PHP. Genom att arbeta med klasser, objekt och designmönster får man en tydligare struktur i sin kod och gör det lättare att återanvända funktioner. Under kursens gång får studenten bygga applikationer i ett PHP-baserat ramverk som kombinerar HTML, CSS, databaskoppling med SQL och enhetstestning.</p>
+            <p>Utöver programmering lär man sig hantera databaser med hjälp av SQL och PHP Data Objects (PDO), vilket skapar en stabil koppling mellan databasen och applikationen. Kursen innehåller också arbete i en webbmiljö med verktyg som Linux-terminalen, ssh, FTP/SFTP och databasklienter som PHPMyAdmin och MySQL Workbench. Syftet med kursen är att ge en helhetsförståelse för hur olika tekniker samarbetar i ett modernt webbprojekt.</p>
+
+        </main>
+        <aside class="aside">
+            <a href="{{ asset('img/mvc.jpg') }}">
+                <img class="pic" src="{{ asset('img/mvc.jpg') }}" alt="">
+            </a>
+            <a href="https://github.com/dbwebb-se/mvc/tree/main" target="_blank"><i class="fa fa-github"></i>Course Github</a>
+
+            <a href="https://github.com/malakalm99?tab=repositories" target="_blank"><i class="fa fa-github"></i>My github repository</a>            
+            {# <a href="https://github.com/malakalm99?tab=repositories" target="_blank">My github repository</a> #}
+        </aside>
+    </div>
+{% endblock %}

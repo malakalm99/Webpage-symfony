@@ -1,0 +1,60 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Report{% endblock %}
+
+{% block body %}
+    <h1>Redovisning</h1>
+
+    <main>
+        <navbar class="navreport">
+            <ul>
+                <li><a href="#kmom01">Kmom01</a></li>
+                <li><a href="#kmom02">Kmom02</a></li>
+                <li><a href="#kmom03">Kmom03</a></li>
+                <li><a href="#kmom04">Kmom04</a></li>
+                <li><a href="#kmom05">Kmom05</a></li>
+                <li><a href="#kmom06">Kmom06</a></li>
+            </ul>
+        </navbar>
+
+        <div class="article">
+            <div class="row">
+                <div class="column">
+                    <div id="kmom01">
+                        <h2>Kmom01</h2>
+                        <p>Jag har tidigare erfarenhet av objektorienterad Python där jag fick lära mig hur klasser, medlemsvariabler och metoder är kopplade till objekt. Jag har även en viss förståelse för hur objekt samverkar och kopplas ihop genom arv och komposition.</p>
+
+                        <p>För att komma i gång med objektorientering i PHP behöver man ha koll på några grundläggande delar. Det börjar med att man definierar en klass med ”class” och sedan skapar en instans av klassen med hjälp av ”new”, vilket gör att ett objekt skapas. Man behöver också förstå hur synligheten på variabler och metoder styrs med ”public”, ”private” och ”protected” eftersom det påverkar hur man kan interagera med objektet både inifrån och utifrån klassen.</p>
+                        <p>Det är även viktigt att förstå hur man använder konstruktorn ”construct()” som körs automatiskt när objektet skapas. Den används ofta för att sätta initiala värden. Något jag tyckte var intressant i PHP var hur man använder namespace för att strukturera sina klasser och undvika namnkonflikter speciellt i större projekt. Det gör koden mycket mer organiserad. Artikeln från PHPs officiella manual förklarar detta på ett tydligt sätt.</p>
+
+                        <p>Jag uppfattade kodbasen som lite klurig och ganska rörig i början. Det tog tid att förstå hur alla filer hänger ihop även om jag är bekant med strukturen. Symfony har ett tydligt system men det kräver att man verkligen förstår var allt bor. När jag väl kom in i det blev det enklare att skapa nya routes särskilt efter att jag gått igenom Symfony guiden. Jag känner mig fortfarande lite rostig på PHP så det var en utmaning att läsa och skriva koden igen men det börjar släppa mer och mer.</p>
+
+                        <p>Jag tyckte det var särskilt intressant att läsa om designmönster. Jag vill förstå hur man implementerar dem så att koden blir mer läsbar och lättare att förstå både för mig själv och för andra. Jag vill också lära mig mer om unit testing alltså hur man testar sin kod för att säkerställa att den fungerar som den ska. Det är något jag inte har mycket erfarenhet av men jag ser det som en viktig del för att skriva hållbar och stabil kod. Artikeln tar även upp kodstandarder och verktyg som hjälper till att hålla projektet rent och strukturerat vilket jag tror kommer vara väldigt värdefullt för mig längre fram.</p>
+
+                        <p>Hur man skapar en route i Symfony och hur man hanterar APIer och JSON. Det var nytt för mig att bygga en route som bara returnerar JSON och jag lärde mig hur man kopplar routes till både controllern och Twig filer.</p>
+
+                    </div>
+                    <div id="kmom02">
+                        <h2>Kmom02</h2>
+                    </div>
+                    <div id="kmom03">
+                        <h2>Kmom03</h2>
+                        <p>Här är redovisningstexten</p>
+                    </div>
+                    <div id="kmom04">
+                        <h2>Kmom04</h2>
+                        <p>Här är redovisningstexten</p>
+                    </div>
+                    <div id="kmom05">
+                        <h2>Kmom05</h2>
+                        <p>Här är redovisningstexten</p>
+                    </div>
+                    <div id="kmom06">
+                        <h2>Kmom06</h2>
+                        <p>Här är redovisningstexten</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

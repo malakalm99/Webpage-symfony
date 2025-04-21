@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <h1>Home</h1>
+    <main>
+        <h2>Välkommen</h2>
+        <p>Jag heter Malak Al Moughabat, är 25 år och kommer från Göteborg. Jag växte upp i en stad full av liv och rörelse, med närhet till både hav och natur.</p>
+        <p>Min resa inom teknik började när jag studerade till maskiningenjör på universitetet. Under studierna insåg jag att jag drogs mer mot programmering och IT. Jag blev fascinerad av hur teknik kan användas för att lösa problem och skapa innovationer, vilket fick mig att byta riktning och satsa på webbprogrammering.</p>
+        <p>Under åren har jag haft flera olika jobb, främst inom detaljhandeln. Just nu jobbar jag på ett bemanningsföretag, vilket ger mig möjlighet att testa på olika arbetsmiljöer och fortsätta utvecklas.</p>
+        <p>Programmering har blivit en passion för mig, men jag gillar också att balansera det digitala med praktiska projekt. På fritiden tycker jag om att skapa med händerna, som att virka och experimentera med olika DIY-projekt. Det ger en fin kontrast till skärmtiden och låter mig vara kreativ på ett annat sätt.</p>
+        
+        <a href="{{ asset('img/Image.jpeg') }}">
+            <img class="mepic" src="{{ asset('img/Image.jpeg') }}" alt="">
+        </a>
+    </main>
+{% endblock %}
