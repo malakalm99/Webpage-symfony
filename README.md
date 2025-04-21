@@ -23,7 +23,7 @@ How to get started!
 ====================
 ```bash
 # 1. Clone the repository
-git clone https://github.com/malakalm99/report.git
+git clone https://github.com/malakalm99/Webpage-symfony
 
 # 2. Move into the project directory
 cd me/report
