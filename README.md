@@ -59,7 +59,7 @@ npm run build
 
 6. Install the symfony-cli to use symfony's local server
 
-# Bash Windows WSL/Linux
+Bash Windows WSL/Linux
 
 curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | sudo -E bash
 
