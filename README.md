@@ -34,12 +34,15 @@ The project uses [Webpack Encore](https://symfony.com/doc/current/frontend/encor
 ## Get started with the project
 
 1. Clone the repository
+
 git clone https://github.com/malakalm99/Webpage-symfony
 
 2. Move into the project directory
+
 cd me/report
 
 3. Install PHP dependencies
+
 composer install
 
 composer require twig
@@ -56,7 +59,8 @@ npm run build
 
 6. Install the symfony-cli to use symfony's local server
 
-#Bash Windows WSL/Linux
+# Bash Windows WSL/Linux
+
 curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | sudo -E bash
 
 sudo apt install symfony-cli
