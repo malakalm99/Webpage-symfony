@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}API Overview{% endblock %}
+
+{% block body %}
+    <h1>API Json route</h1>
+    <main class="main">
+        <ul class="list-api">
+            <li><a href="{{ path('api_quote') }}">Quote - Slumpmässigt citat och dagens datum (JSON response)</a></li>
+            <li><a href="{{ path('api_number') }}">Number - Slumpmässigt nummer (JSON response)</a></li>
+        </ul>
+    </main>
+{% endblock %}

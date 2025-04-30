@@ -8,8 +8,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class QuoteControllerJson
 {
-    #[Route("/api/quote")]
-    public function jsonQuote(): Response
+    #[Route("/api/quote", name: "api_quote")]
+    public function quote(): Response
     {
         $quotes = [
             "Be the change that you wish to see in the world - Mahatma Gandhi",
@@ -33,6 +33,5 @@ class QuoteControllerJson
         );
 
         return $response;
-
     }
 }
