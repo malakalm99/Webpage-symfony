@@ -25,6 +25,7 @@ class HomeControllerTwig extends AbstractController
     {
         return $this->render('report.html.twig');
     }
+
     #[Route("/lucky", name: "lucky")]
     public function lucky(): Response
     {
@@ -42,5 +43,11 @@ class HomeControllerTwig extends AbstractController
 
         return $this->render('lucky.html.twig', ['fortunes' => $fortunes,
         ]);
+    }
+
+    #[Route("/api", name: "apiIndex")]
+    public function apiIndex(): Response
+    {
+        return $this->render('api/index.html.twig');
     }
 }
